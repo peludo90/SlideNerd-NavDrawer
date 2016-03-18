@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/act_main_drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.peludo90.material.navdrawer.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/main_app_bar"
+            layout="@layout/common_app_bar"></include>
+
+
+    </RelativeLayout>
+
+
+    <fragment
+        android:id="@+id/act_main_frag"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:layout="@layout/fragment_fragment_navigation_drawer"
+        android:name="co.peludo90.material.navdrawer.fragments.FragmentNavigationDrawer"
+        tools:layout="@layout/fragment_fragment_navigation_drawer"></fragment>
+
+
+</android.support.v4.widget.DrawerLayout>
+

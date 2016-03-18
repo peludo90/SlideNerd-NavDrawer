@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ic_common_next"
+        android:icon="@drawable/ic_navigate_next_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/common_next"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/ic_common_settings"
+        android:orderInCategory="100"
+        android:title="@string/common_settings"
+        app:showAsAction="never"></item>
+
+
+</menu>
